@@ -7,11 +7,12 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#gallery", label: "Gallery" },
-    { href: "#pricing", label: "Pricing" },
-    { href: "#about", label: "About" },
-    { href: "#contact", label: "Contact" },
+    { href: "/#home", label: "Home" },
+    { href: "/#gallery", label: "Gallery" },
+    { href: "/my-work", label: "My Work" },
+    { href: "/#pricing", label: "Pricing" },
+    { href: "/#about", label: "About" },
+    { href: "/#contact", label: "Contact" },
   ]
 
   return (
@@ -19,7 +20,7 @@ export function Header() {
       <nav className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#home" className="flex flex-col">
+          <a href="/#home" className="flex flex-col">
             <span className="font-serif text-2xl md:text-3xl font-light tracking-wide text-foreground">
               Truelens
             </span>

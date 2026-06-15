@@ -6,41 +6,32 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/engagement/almost-kiss.png"
-          alt="Engaged couple holding each other close in a sunlit field"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_2009-seqovdF6r2VYMlX38AW4O0NYtNAjQy.jpg"
+          alt="Children holding hands in a meadow"
           fill
-          className="object-cover object-center"
+          className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/50 to-background/90" />
+        <div className="absolute inset-0 bg-background/70" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <p className="text-muted-foreground tracking-[0.3em] uppercase text-sm mb-4">
-          Engagements &middot; Couples &middot; Love Stories
+          Welcome to
         </p>
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-light tracking-wide mb-6 text-foreground text-balance">
           Truelens Photography
         </h1>
-        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-10 text-pretty">
-          Capturing the moment you said yes and every heartfelt one after. Real love, real
-          emotion, beautifully remembered.
+        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-10">
+          Capturing authentic moments and genuine emotions. Every photograph tells a story worth remembering.
         </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a
-            href="#gallery"
-            className="inline-block px-8 py-3 border border-foreground text-foreground text-sm tracking-widest uppercase hover:bg-foreground hover:text-background transition-all duration-300"
-          >
-            View Gallery
-          </a>
-          <a
-            href="#contact"
-            className="inline-block px-8 py-3 bg-foreground text-background text-sm tracking-widest uppercase hover:bg-muted-foreground transition-all duration-300"
-          >
-            Book a Session
-          </a>
-        </div>
+        <a
+          href="#gallery"
+          className="inline-block px-8 py-3 border border-foreground text-foreground text-sm tracking-widest uppercase hover:bg-foreground hover:text-background transition-all duration-300"
+        >
+          View Gallery
+        </a>
       </div>
 
       {/* Scroll Indicator */}
