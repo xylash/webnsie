@@ -142,8 +142,9 @@ export function Contact() {
           {/* Contact Info */}
           <div className="flex flex-col justify-center">
             <p className="text-muted-foreground leading-relaxed mb-10">
-              Ready to capture your special moments? Whether it&apos;s a family portrait session, 
-              a milestone celebration, or simply everyday magic, we&apos;d love to hear from you.
+              Ready to capture your love story? Whether it&apos;s an engagement session, a
+              just-because date, or a milestone worth celebrating, we&apos;d love to hear from
+              you and bring your vision to life.
             </p>
 
             <div className="space-y-6">

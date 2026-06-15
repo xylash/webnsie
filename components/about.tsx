@@ -3,19 +3,19 @@ import { Camera, Heart, Star } from "lucide-react"
 
 const features = [
   {
-    icon: Camera,
-    title: "Professional Quality",
-    description: "High-resolution images captured with professional equipment and artistic vision.",
+    icon: Heart,
+    title: "Genuine Connection",
+    description: "We capture the real glances, laughter, and quiet moments between you and the one you love.",
   },
   {
-    icon: Heart,
-    title: "Authentic Moments",
-    description: "Candid photography that captures genuine emotions and natural expressions.",
+    icon: Camera,
+    title: "Professional Quality",
+    description: "High-resolution images captured with professional equipment and an artistic eye.",
   },
   {
     icon: Star,
     title: "Timeless Style",
-    description: "Classic, elegant editing that stands the test of time.",
+    description: "Classic, elegant editing that keeps your love story beautiful for a lifetime.",
   },
 ]
 
@@ -27,8 +27,8 @@ export function About() {
           {/* Image */}
           <div className="relative aspect-[3/4] overflow-hidden">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_2006-Ow5LFErlaY8Nt3bJYhFpinGuYqybvT.jpg"
-              alt="Little girl posing in a field"
+              src="/engagement/kiss-portrait.png"
+              alt="Engaged couple sharing a kiss in a field"
               fill
               className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
             />
@@ -41,18 +41,19 @@ export function About() {
               About Us
             </p>
             <h2 className="font-serif text-4xl md:text-5xl font-light tracking-wide text-foreground mb-6">
-              Capturing Life&apos;s Beautiful Stories
+              Capturing Love&apos;s Beautiful Stories
             </h2>
             <div className="w-16 h-px bg-muted-foreground mb-8" />
             <p className="text-muted-foreground leading-relaxed mb-6">
-              At Truelens Photography, we believe every moment deserves to be remembered. 
-              Our passion lies in capturing the authentic connections between loved ones, 
-              the spontaneous laughter of children, and the quiet intimacy of family bonds.
+              At Truelens Photography, we believe every love story deserves to be remembered.
+              Our passion lies in capturing the authentic connection between two people &mdash;
+              the nervous excitement of a proposal, the joyful toast, and the quiet intimacy of
+              simply being together.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-12">
-              With a cozy, relaxed approach to photography, we create an environment where 
-              genuine moments unfold naturally. Our goal is to provide you with timeless 
-              images that tell your unique story for generations to come.
+              With a relaxed, easygoing approach, we create a space where genuine moments unfold
+              naturally. Our goal is to give you timeless images that tell the story of your
+              love for years to come.
             </p>
 
             {/* Features */}

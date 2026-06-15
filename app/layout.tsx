@@ -15,8 +15,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Truelens Photography | Capturing Authentic Moments',
-  description: 'Professional photography services specializing in family portraits and candid moments. Based in capturing life\'s beautiful stories.',
+  title: 'Truelens Photography | Engagement & Couples Photography',
+  description: 'Professional engagement and couples photography capturing authentic love stories, proposals, and heartfelt moments.',
   generator: 'v0.app',
   icons: {
     icon: [
