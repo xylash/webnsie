@@ -48,7 +48,7 @@ export function Contact() {
     {
       icon: MapPin,
       label: "Location",
-      value: "Virginia 24219",
+      value: "Kingsport, Tennessee 37660",
     },
   ]
 
