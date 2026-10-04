@@ -80,6 +80,56 @@ const photos: Photo[] = [
     alt: "Framed engagement photo styled with glasses and rose petals",
     title: "The Details",
   },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-LiQaCQFtXQ1CrWDfEIFqnf0oXy7dIO.png",
+    alt: "Young girl meeting her newborn sibling in a hospital bassinet",
+    title: "A Gentle Hello",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-YGbsfN5Ws1xrGn2PATVkjlJmaDXpsc.png",
+    alt: "Smiling siblings sitting together in a hospital room",
+    title: "Big Brother Love",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-lQm3ipggcZN3zbOHNCbxnLyO6HUyJY.png",
+    alt: "Three siblings gathered around their newborn baby",
+    title: "Welcome Home",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-yumkqEVt752GHxy73JhEbqNT4O04dz.png",
+    alt: "Young girl cuddling her newborn sibling",
+    title: "Cuddle Time",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-dVkT1bdUn8GpNzLXsYPMv8FtGPeGFc.png",
+    alt: "Young girl smiling while holding her newborn sibling",
+    title: "Pure Happiness",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-BL2rFqlTHdpHSv2pAW6N0w1eNa1U5N.png",
+    alt: "Family gathered around a newborn in a hospital room",
+    title: "The Whole Family",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DDgCBfiFijGHWTgRA1RIQo2LlzTIZ6.png",
+    alt: "Mother holding her newborn baby in a hospital room",
+    title: "Mother and Child",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-NQiJzuev5uVsfuvZXOD3uHPAOn9Ajs.png",
+    alt: "Father holding his newborn beside the baby's mother",
+    title: "First Family Moments",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-r6oFBY0CBYXpvchOA1EivLGzgF1B7J.png",
+    alt: "Parents holding their newborn together",
+    title: "New Beginnings",
+  },
+  {
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-ShUAsPfe6i1Nf8VbMI5QkTijZBcOp2.png",
+    alt: "Young girl holding her newborn sibling close",
+    title: "Sibling Sweetness",
+  },
 ]
 
 export function MyWorkGallery() {
